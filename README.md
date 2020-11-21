@@ -22,11 +22,19 @@ HowToUpdate RRR:
 
 
 *before clicking upload button, use following settings (in Tools):
-*Board: "WiFi LoRa 32(V2)" / 
-*Upload Speed: "921600" /
-*CPU Frequency: "240MHz (WiFi/BT)" / 
-*Core Debug Level: "None" / 
-*PSRAM: "Disabled" / 
-*LoRaWan Region: "REGION_EU433" / 
-*LoRaWan Debug Level: "None" / 
+
+*Board: "WiFi LoRa 32(V2)"
+
+*Upload Speed: "921600
+
+*CPU Frequency: "240MHz (WiFi/BT)"
+
+*Core Debug Level: "None"
+
+*PSRAM: "Disabled"
+
+*LoRaWan Region: "REGION_EU433"
+
+*LoRaWan Debug Level: "None"
+
 *Port: COMx (depends on which USB-Slot you are connected)
