@@ -8,7 +8,7 @@ HowToUpdate RRR:
 1. Install Arduino IDE: https://www.arduino.cc/en/software
 2. Install heltec ESP32 Boards: https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html
   (short: Preferences->URL's->https://resource.heltec.cn/download/package_heltec_esp32_index.json // Tools->Boards->BoardManager->"heltec")
-3. here: Code -> Download ZIP
+3. here (GitHub): Code -> Download ZIP
 4. Install the following libraries (extract both rar's to: Documents/Arduino/libraries)
     
     - SolidGeek-VescUart-extended
