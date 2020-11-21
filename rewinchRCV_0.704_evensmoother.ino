@@ -20,6 +20,7 @@ String versionnr = "rcv_0.704";
       bool  serialenable=true;
 
       long lastvesc;
+      long barposition;
 
 void clearpacket()
     {
@@ -57,7 +58,7 @@ void setup() {
 
 
 void loop() {
-    if (lastvesc + 5000 < millis()) updatevesc();
+    if (lastvesc + 1000 < millis()) updatevesc();
     if(recv) {
           
           serialenable = true;
@@ -74,8 +75,9 @@ void loop() {
             else if (accel <  0.02 && accel > 0.00 ) accel =  0.02;
           }
         }
-
-    if(millis() > lastrecvtime + timeout) { sendduty = 0; serialenable = false; }
+    
+        
+    if      (millis() > lastrecvtime + timeout) { sendduty = 0; }
     else {
           if(lastrecvduty <= isduty + 0.1 && lastrecvduty >= isduty - 0.1) sendduty = lastrecvduty;
           else    {
@@ -87,14 +89,15 @@ void loop() {
                     
         }
         
-    
-        
+    if (barposition > -5000) {sendduty = 0; }
+      
     if(serialenable) {
         //Serial.print(millis());
         Serial.print("send="); 
         Serial.print(sendduty); 
         Serial.println();
         UART.setDutyALL(sendduty/100.0);
+        if ( sendduty == 0 ) serialenable = false;
     }
               
     isduty = sendduty;
@@ -121,7 +124,7 @@ bool updatevesc() {
   /** Call the function getVescValues() to acquire data from VESC */
   lastvesc = millis();
   if ( UART.getVescValues() ) {
-    
+    barposition = UART.data.tachometer;
     Serial.println(UART.data.dutyCycleNow);
     return 1;
   }
