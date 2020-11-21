@@ -21,20 +21,21 @@ HowToUpdate RRR:
     - RCV**.ino = Receiver
 
 
+
 *before clicking upload button, use following settings (in Tools):
 
-*Board: "WiFi LoRa 32(V2)"
+Board: "WiFi LoRa 32(V2)"
 
-*Upload Speed: "921600
+Upload Speed: "921600
 
-*CPU Frequency: "240MHz (WiFi/BT)"
+CPU Frequency: "240MHz (WiFi/BT)"
 
-*Core Debug Level: "None"
+Core Debug Level: "None"
 
-*PSRAM: "Disabled"
+PSRAM: "Disabled"
 
-*LoRaWan Region: "REGION_EU433"
+LoRaWan Region: "REGION_EU433"
 
-*LoRaWan Debug Level: "None"
+LoRaWan Debug Level: "None"
 
-*Port: COMx (depends on which USB-Slot you are connected)
+Port: COMx (depends on which USB-Slot you are connected)
