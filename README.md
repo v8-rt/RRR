@@ -14,7 +14,7 @@ HowToUpdate RRR:
     - SolidGeek-VescUart-extended
     
     - Heltec_ESP32_Dev-Boards-extended
-5. Extract and open the .ino's (IDE will create a folder for each) and upload code to the Controller* // Receiver
+5. Extract and open the .ino's (IDE will create a folder for each) and upload* code to the Controller // Receiver
     
     - SND**.ino = Sender = Remote Controller
     
