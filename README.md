@@ -38,4 +38,4 @@ LoRaWan Region: "REGION_EU433"
 
 LoRaWan Debug Level: "None"
 
-Port: COMx (depends on which USB-Slot you are connected)
+Port: COMx (depends on which USB-Slot the board is connected to, must show a COM+number when board is connected)
