@@ -14,7 +14,7 @@ HowToUpdate RRR:
     - SolidGeek-VescUart-extended
     
     - Heltec_ESP32_Dev-Boards-extended
-5. Open the .ino's (IDE will create a folder for each) and upload code to the Controller* // Receiver
+5. Extract and open the .ino's (IDE will create a folder for each) and upload code to the Controller* // Receiver
     
     - SND**.ino = Sender = Remote Controller
     
@@ -22,7 +22,7 @@ HowToUpdate RRR:
 
 - - - - - -
 
-*before clicking upload button, use following settings (in Tools):
+*before clicking upload button, make sure you got a microUSB-DATA-cable (there are a lot of "just-load" cables around) and check following settings (in Tools):
 
 Board: "WiFi LoRa 32(V2)"
 
