@@ -1,0 +1,12 @@
+- show battery level / voltage on remote startup
+
+Menu():
+OK Menu#A: lefthandmode On/Off
+
+- Menu#B: receive current VESC-Data from RCV
+
+- Menu#C: set current position as end position (RCV will stop rewinch when exceeding this position)
+
+- Menu#D: PositionControl enable/disable
+
+OK Exit
