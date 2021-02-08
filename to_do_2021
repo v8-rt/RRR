@@ -3,10 +3,12 @@
 Menu():
 OK Menu#A: lefthandmode On/Off
 
-- Menu#B: receive current VESC-Data from RCV
+- Menu#B: receive current VESC-Data from RCV, show for 5s - go back to menu
 
 - Menu#C: set current position as end position (RCV will stop rewinch when exceeding this position)
 
 - Menu#D: PositionControl enable/disable
+
+- Menu#E: Set ramps
 
 OK Exit
