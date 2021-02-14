@@ -1,5 +1,4 @@
-# RRR
-Rewinch Rider Remote
+# Rewinch Rider Remote
 
 wireless long range remote controller for rewinch
 
