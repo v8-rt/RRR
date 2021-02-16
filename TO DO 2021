@@ -1,4 +1,5 @@
 - show battery level / voltage on remote startup
+- attach interrupt(s) at start sending, detach when sending done
 
 Menu():
 OK Menu#A: lefthandmode On/Off
