@@ -1,4 +1,4 @@
-//NOT READY!!
+//
 
 #include "heltec.h"
 #include "rewinchlogo.h"
