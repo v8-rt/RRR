@@ -38,7 +38,9 @@ void setup() {
   Heltec.display->init();
   Heltec.display->flipScreenVertically();
   delay(500);
-
+  
+  LoRa.setSpreadingFactor(8);
+  
   LoRa.onReceive(onReceive);    // register the receive callback
   LoRa.receive();               // put the radio into receive mode
 
